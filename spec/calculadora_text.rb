@@ -14,4 +14,8 @@ describe Calculadora do
   end
 
 
+ it 'should return 3' do
+    Calculadora.sumar2("1","2").must_equal 3
+  end
+
 end

@@ -1,20 +1,16 @@
 module Calculadora	
 
-def self.sumarvacio(string) 
-return 0
-end
+def self.add(string) 
+	b=0
+	arreglo = string.split(",")
 
-def self.sumar1(string) 
-return string.to_i
-end
 
-def self.sumar1(string) 
-return string.to_i
-end
+	arreglo.each do |i|
 
-def self.sumar2(string,string2) 
-return string.to_i + string2.to_i
-end
+	b= i.to_i + b
+	end
 
+	return b
+end
 
 end

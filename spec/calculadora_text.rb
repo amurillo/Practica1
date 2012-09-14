@@ -17,4 +17,9 @@ describe Calculadora do
     Calculadora.add("1,2").must_equal 3
   end
 
+  it 'should return 3' do
+    Calculadora.add("1,2,3,4,5,6,7").must_equal 28
+  end
+
+
 end

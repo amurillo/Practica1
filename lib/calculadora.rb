@@ -1,11 +1,11 @@
 module Calculadora	
 
-def self.sumarvacio("") 
+def self.sumarvacio(string) 
 return 0
 end
 
 def self.sumar1(string) 
-return Integer(string)
+return string.to_i
 end
 
 
